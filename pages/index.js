@@ -3,6 +3,8 @@ import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 import { FiFigma } from "react-icons/fi";
 import { GrHeroku } from "react-icons/gr";
+import { FiGithub } from "react-icons/fi";
+import { FiExternalLink } from "react-icons/fi";
 import Image from 'next/image';
 import deved from '../public/dev-flor.png';
 import front from '../public/front-end.png';
@@ -95,27 +97,34 @@ export default function Home() {
         <section className='py-10'>
           <div>
             <h3 className='text-3xl pb-1 dark:text-white'>Portfolio</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>texto<span className='text-teal-500'>JavaScript</span> mas texto
-            </p>
-            <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>otro parrafo <span className='text-teal-500'>JavaScript</span> mas texto
-            </p>
+            <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>Desarrollos web que he realizado desde cero. </p>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1 border rounded-md border-gray-300'>
               <Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} />
-              <a className='text-4xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://mind-free.surge.sh/'><GrHeroku/></a>
+              <a className='text-2xl flex justify-center gap-16 py-3 mt-3 text-gray-600 dark:text-gray-400' href='https://mind-free.surge.sh/'><GrHeroku/></a>
+              <div className='text-xs px-2 justify-center gap-2  text-gray-600 dark:text-gray-400'>
+                <p> Usuario de prueba: sara@gmail.com</p>
+                <p> Contraseña: 123123123</p>
+              </div>
             </div>
             <div className='basis-1/3 flex-1 border rounded-md border-gray-300'>
               <Image src={web2} className='rounded-lg object-cover' width={'100%'} height={'100%'} />
-              <a className='text-4xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://florencia-mussis.github.io/Coderhouse-Proyecto-final/'><AiFillGithub/></a>
+              <div className='flex justify-center gap-4'>
+              <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://github.com/Florencia-Mussis/Portfolio'><FiGithub/></a>
+              <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://florencia-mussis.github.io/Portfolio/'><FiExternalLink/></a>
+              </div>
             </div>
             <div className='basis-1/3 flex-1 border rounded-md border-gray-300'>
               <Image src={web3} className='rounded-lg object-cover' width={'100%'} height={'100%'} />
-              <a className='text-4xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://florencia-mussis.github.io/Coderhouse-Proyecto-final/'><AiFillGithub/></a>
+              <div className='flex justify-center gap-4'>
+              <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://github.com/Florencia-Mussis/Coderhouse-Proyecto-final'><FiGithub/></a>
+              <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://florencia-mussis.github.io/Coderhouse-Proyecto-final/'><FiExternalLink/></a>
+            </div>
             </div>
             <div className='basis-1/3 flex-1 border rounded-md border-gray-300'>
               <Image src={web4} className='rounded-lg object-cover' width={'100%'} height={'100%'} />
-              <a className='text-4xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://www.figma.com/proto/jVemOixIxblL1W3PfsnuYI/My-Lists?node-id=1-2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2'><FiFigma/></a>
+              <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://www.figma.com/proto/jVemOixIxblL1W3PfsnuYI/My-Lists?node-id=1-2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2'><FiFigma/></a>
             </div>
           </div>
         </section>
