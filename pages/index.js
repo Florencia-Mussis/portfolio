@@ -102,7 +102,7 @@ export default function Home() {
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1 border rounded-md border-gray-300'>
               <Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} />
-              <a className='text-2xl flex justify-center gap-16 py-3 mt-3 text-gray-600 dark:text-gray-400' href='https://mind-free.surge.sh/'><GrHeroku/></a>
+              <a className='text-2xl flex justify-center gap-16 py-3 mt-3 text-gray-600 dark:text-gray-400' href='https://mind-free.surge.sh/'><FiExternalLink/></a>
               <div className='text-xs px-2 justify-center gap-2  text-gray-600 dark:text-gray-400'>
                 <p> Usuario de prueba: sara@gmail.com</p>
                 <p> Contraseña: 123123123</p>
@@ -124,7 +124,7 @@ export default function Home() {
             </div>
             <div className='basis-1/3 flex-1 border rounded-md border-gray-300'>
               <Image src={web4} className='rounded-lg object-cover' width={'100%'} height={'100%'} />
-              <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://www.figma.com/proto/jVemOixIxblL1W3PfsnuYI/My-Lists?node-id=1-2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2'><FiFigma/></a>
+              <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://www.figma.com/proto/jVemOixIxblL1W3PfsnuYI/My-Lists?node-id=1-2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2'><FiExternalLink/></a>
             </div>
           </div>
         </section>
