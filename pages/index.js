@@ -13,6 +13,7 @@ import web2 from '../public/web2.png';
 import web3 from '../public/web3.png';
 import web4 from '../public/web4.png';
 import web5 from '../public/web5.png';
+import web6 from '../public/web6.png';
 import { useState } from 'react';
 
 export default function Home() {
@@ -35,7 +36,7 @@ export default function Home() {
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl' />
               </li>
               <li>
-                <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8' href='https://drive.google.com/file/d/1bE6WR7NIaFLx17IDLG01EGGWYPQl55cp/view?usp=sharing'>Resume</a>
+                <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8' href='https://drive.google.com/file/d/1zRPCqlaD1rzfHFSsc8BFcp8n2CuYki3n/view?usp=sharing'>Resume</a>
               </li>
             </ul>
           </nav>
@@ -109,26 +110,33 @@ export default function Home() {
             </div>
             <div className='basis-1/3 flex-1 border rounded-md border-gray-300'>
               <Image src={web2} className='rounded-lg object-cover' width={'100%'} height={'100%'} />
-              <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://pokedex-pokeapi-react-typescript.netlify.app/'><FiExternalLink /></a>
-            </div>
-            <div className='basis-1/3 flex-1 border rounded-md border-gray-300'>
-              <Image src={web3} className='rounded-lg object-cover' width={'100%'} height={'100%'} />
               <div className='flex justify-center gap-4'>
                 <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://github.com/Florencia-Mussis/Portfolio'><FiGithub /></a>
                 <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://florencia-mussis.github.io/Portfolio/'><FiExternalLink /></a>
               </div>
             </div>
             <div className='basis-1/3 flex-1 border rounded-md border-gray-300'>
+              <Image src={web3} className='rounded-lg object-cover' width={'100%'} height={'100%'} />
+              <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://pokedex-pokeapi-react-typescript.netlify.app/'><FiExternalLink /></a>
+            </div>
+            <div className='basis-1/3 flex-1 border rounded-md border-gray-300'>
               <Image src={web4} className='rounded-lg object-cover' width={'100%'} height={'100%'} />
+              <div className='flex justify-center gap-4'>
+                <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://github.com/Florencia-Mussis/minimalist-website'><FiGithub /></a>
+                <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://florencia-mussis.github.io/minimalist-website/'><FiExternalLink /></a>
+              </div>
+            </div>
+            <div className='basis-1/3 flex-1 border rounded-md border-gray-300'>
+              <Image src={web5} className='rounded-lg object-cover' width={'100%'} height={'100%'} />
               <div className='flex justify-center gap-4'>
                 <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://github.com/Florencia-Mussis/Coderhouse-Proyecto-final'><FiGithub /></a>
                 <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://florencia-mussis.github.io/Coderhouse-Proyecto-final/'><FiExternalLink /></a>
               </div>
             </div>
-            {/* <div className='basis-1/3 flex-1 border rounded-md border-gray-300'>
-              <Image src={web5} className='rounded-lg object-cover' width={'100%'} height={'100%'} />
+            <div className='basis-1/3 flex-1 border rounded-md border-gray-300'>
+              <Image src={web6} className='rounded-lg object-cover' width={'100%'} height={'100%'} />
               <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://www.figma.com/proto/jVemOixIxblL1W3PfsnuYI/My-Lists?node-id=1-2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2'><FiExternalLink/></a>
-            </div> */}
+            </div>
           </div>
         </section>
       </main>
