@@ -111,8 +111,8 @@ export default function Home() {
             <div className='basis-1/3 flex-1 border rounded-md border-gray-300'>
               <Image src={web2} className='rounded-lg object-cover' width={'100%'} height={'100%'} />
               <div className='flex justify-center gap-4'>
-                <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://github.com/Florencia-Mussis/Portfolio'><FiGithub /></a>
-                <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://florencia-mussis.github.io/Portfolio/'><FiExternalLink /></a>
+                <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://github.com/Florencia-Mussis/florencia-mussis-portfolio'><FiGithub /></a>
+                <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://florencia-mussis.github.io/florencia-mussis-portfolio/'><FiExternalLink /></a>
               </div>
             </div>
             <div className='basis-1/3 flex-1 border rounded-md border-gray-300'>
@@ -122,15 +122,15 @@ export default function Home() {
             <div className='basis-1/3 flex-1 border rounded-md border-gray-300'>
               <Image src={web4} className='rounded-lg object-cover' width={'100%'} height={'100%'} />
               <div className='flex justify-center gap-4'>
-                <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://github.com/Florencia-Mussis/minimalist-website'><FiGithub /></a>
-                <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://florencia-mussis.github.io/minimalist-website/'><FiExternalLink /></a>
+                <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://github.com/Florencia-Mussis/mind-body-landing-page'><FiGithub /></a>
+                <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://florencia-mussis.github.io/mind-body-landing-page/'><FiExternalLink /></a>
               </div>
             </div>
             <div className='basis-1/3 flex-1 border rounded-md border-gray-300'>
               <Image src={web5} className='rounded-lg object-cover' width={'100%'} height={'100%'} />
               <div className='flex justify-center gap-4'>
-                <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://github.com/Florencia-Mussis/Coderhouse-Proyecto-final'><FiGithub /></a>
-                <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://florencia-mussis.github.io/Coderhouse-Proyecto-final/'><FiExternalLink /></a>
+                <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://github.com/Florencia-Mussis/florencia-mussis-portfolio'><FiGithub /></a>
+                <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://florencia-mussis.github.io/florencia-mussis-portfolio/'><FiExternalLink /></a>
               </div>
             </div>
             <div className='basis-1/3 flex-1 border rounded-md border-gray-300'>
