@@ -111,8 +111,8 @@ export default function Home() {
             <div className='basis-1/3 flex-1 border rounded-md border-gray-300'>
               <Image src={web2} className='rounded-lg object-cover' width={'100%'} height={'100%'} />
               <div className='flex justify-center gap-4'>
-                <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://github.com/Florencia-Mussis/florencia-mussis-portfolio'><FiGithub /></a>
-                <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://florencia-mussis.github.io/florencia-mussis-portfolio/'><FiExternalLink /></a>
+                <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://github.com/Florencia-Mussis/portfolio'><FiGithub /></a>
+                <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://florencia-mussis.github.io/portfolio/'><FiExternalLink /></a>
               </div>
             </div>
             <div className='basis-1/3 flex-1 border rounded-md border-gray-300'>
