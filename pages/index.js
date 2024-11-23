@@ -38,7 +38,7 @@ export default function Home() {
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl' />
               </li>
               <li>
-                <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8' href='https://drive.google.com/file/d/1jB7sBq_8akkNUYFB1yF7j5Na-cP_jRI6/view?usp=sharing'>Resume</a>
+                <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8' href='https://drive.google.com/file/d/1Ch5FxwCSnIHBfM0N5bU6RXv5nQj1OVVh/view?usp=sharing'>Resume</a>
               </li>
             </ul>
           </nav>
@@ -134,10 +134,6 @@ export default function Home() {
                 <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://florencia-mussis.github.io/landing-page-bootstrap/'><FiExternalLink /></a>
               </div>
             </div>
-
-
-
-
             <div className='basis-1/3 flex-1 border rounded-md border-gray-300 flex flex-col justify-between'>
               <Image src={web4} className='rounded-lg object-cover' width={'100%'} height={'100%'} />
               <div className='flex justify-center gap-4'>
