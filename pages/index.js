@@ -14,6 +14,8 @@ import web3 from '../public/web3.png';
 import web4 from '../public/web4.png';
 import web5 from '../public/web5.png';
 import web6 from '../public/web6.png';
+import web7 from '../public/web7.png';
+import web8 from '../public/web8.png';
 import { useState } from 'react';
 
 export default function Home() {
@@ -36,15 +38,14 @@ export default function Home() {
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl' />
               </li>
               <li>
-                <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8' href='https://drive.google.com/file/d/1foUQ81-5mUwfjvFCnKwR3eYBVYhx6Ycb/view?usp=sharing'>Resume</a>
+                <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8' href='https://drive.google.com/file/d/1jB7sBq_8akkNUYFB1yF7j5Na-cP_jRI6/view?usp=sharing'>Resume</a>
               </li>
             </ul>
           </nav>
           <div className='text-center p-10 py-10'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl'>Florencia Belén Mussis</h2>
             <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Developer</h3>
-            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-200'>Desarrolladora web habituada al trabajo en equipo<br /> y con habilidades comunicativas.<br />
-              Conocimientos en desarrollo web front-end con HTML, CSS, JavaScript y Single Page Application utilizando framework React.<br /> Conocimientos de desarrollo cliente-servidor con <br /> Node.js, Express.js, MongoDB y Mongoose.
+            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-200'>Desarrolladora front-end con experiencia en HTML, CSS, JavaScript y frameworks como React para el desarrollo de Single Page Applications. Habituada al trabajo en equipo en entornos colaborativos y con sólidas habilidades comunicativas. Interesada en perfeccionar las buenas prácticas de desarrollo y adquirir nuevos conocimientos para implementar soluciones eficientes y modernas.<br />
             </p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'>
@@ -75,7 +76,7 @@ export default function Home() {
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
               <Image src={server} width={100} height={100} className='mx-auto' />
               <h3 className='text-lg font-medium pt-8 pb-2'>BACK END</h3>
-              <p className='py-2'>Para el desarrollo del lado del servidor y utilizando bases de datos tengo experiencia con:</p>
+              <p className='py-2'>Para el desarrollo del lado del servidor y bases de datos he utilizado:</p>
               <p className='text-teal-600 py-1'>Node.js</p>
               <p className='text-teal-600 py-1'>Express.js</p>
               <p className='text-teal-600 py-1'>MongoDB</p>
@@ -108,32 +109,50 @@ export default function Home() {
                 <p> Contraseña: 123123123</p>
               </div>
             </div>
-            <div className='basis-1/3 flex-1 border rounded-md border-gray-300'>
+            <div className='basis-1/3 flex-1 border rounded-md border-gray-300 flex flex-col justify-between'>
               <Image src={web2} className='rounded-lg object-cover' width={'100%'} height={'100%'} />
               <div className='flex justify-center gap-4'>
                 <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://github.com/Florencia-Mussis/portfolio'><FiGithub /></a>
                 <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://florencia-mussis.github.io/portfolio/'><FiExternalLink /></a>
               </div>
             </div>
-            <div className='basis-1/3 flex-1 border rounded-md border-gray-300'>
+            <div className='basis-1/3 flex-1 border rounded-md border-gray-300 flex flex-col justify-between'>
               <Image src={web3} className='rounded-lg object-cover' width={'100%'} height={'100%'} />
               <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://pokedex-pokeapi-react-typescript.netlify.app/'><FiExternalLink /></a>
             </div>
-            <div className='basis-1/3 flex-1 border rounded-md border-gray-300'>
+            <div className='basis-1/3 flex-1 border rounded-md border-gray-300 flex flex-col justify-between'>
+              <Image src={web7} className='rounded-lg object-cover' width={'100%'} height={'100%'} />
+              <div className='flex justify-center gap-4'>
+                <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://github.com/Florencia-Mussis/swift-bank-loan-calculator-js'><FiGithub /></a>
+                <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://florencia-mussis.github.io/swift-bank-loan-calculator-js/'><FiExternalLink /></a>
+              </div>
+            </div>
+            <div className='basis-1/3 flex-1 border rounded-md border-gray-300 flex flex-col justify-between'>
+              <Image src={web8} className='rounded-lg object-cover' width={'100%'} height={'100%'} />
+              <div className='flex justify-center gap-4'>
+                <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://github.com/Florencia-Mussis/landing-page-bootstrap'><FiGithub /></a>
+                <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://florencia-mussis.github.io/landing-page-bootstrap/'><FiExternalLink /></a>
+              </div>
+            </div>
+
+
+
+
+            <div className='basis-1/3 flex-1 border rounded-md border-gray-300 flex flex-col justify-between'>
               <Image src={web4} className='rounded-lg object-cover' width={'100%'} height={'100%'} />
               <div className='flex justify-center gap-4'>
                 <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://github.com/Florencia-Mussis/mind-body-landing-page'><FiGithub /></a>
                 <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://florencia-mussis.github.io/mind-body-landing-page/'><FiExternalLink /></a>
               </div>
             </div>
-            <div className='basis-1/3 flex-1 border rounded-md border-gray-300'>
+            <div className='basis-1/3 flex-1 border rounded-md border-gray-300 flex flex-col justify-between'>
               <Image src={web5} className='rounded-lg object-cover' width={'100%'} height={'100%'} />
               <div className='flex justify-center gap-4'>
-                <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://github.com/Florencia-Mussis/florencia-mussis-portfolio'><FiGithub /></a>
-                <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://florencia-mussis.github.io/florencia-mussis-portfolio/'><FiExternalLink /></a>
+                <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://github.com/Florencia-Mussis/vgym-landing-page'><FiGithub /></a>
+                <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://florencia-mussis.github.io/vgym-landing-page/'><FiExternalLink /></a>
               </div>
             </div>
-            <div className='basis-1/3 flex-1 border rounded-md border-gray-300'>
+            <div className='basis-1/3 flex-1 border rounded-md border-gray-300 flex flex-col justify-between'>
               <Image src={web6} className='rounded-lg object-cover' width={'100%'} height={'100%'} />
               <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://www.figma.com/proto/jVemOixIxblL1W3PfsnuYI/My-Lists?node-id=1-2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2'><FiExternalLink/></a>
             </div>
