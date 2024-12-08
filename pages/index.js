@@ -16,6 +16,7 @@ import web5 from '../public/web5.png';
 import web6 from '../public/web6.png';
 import web7 from '../public/web7.png';
 import web8 from '../public/web8.png';
+import web9 from '../public/web9.png';
 import { useState } from 'react';
 
 export default function Home() {
@@ -38,7 +39,7 @@ export default function Home() {
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl' />
               </li>
               <li>
-                <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8' href='https://drive.google.com/file/d/1usV6U46s13oCBs7stdJqH104qr1GHP18/view?usp=sharing'>Resume</a>
+                <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8' href='https://drive.google.com/file/d/1HRlp741CnE4TUepbJqqChBXgdWnuGnal/view?usp=sharing'>Resume</a>
               </li>
             </ul>
           </nav>
@@ -101,6 +102,13 @@ export default function Home() {
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>Desarrollos web que he realizado desde cero. </p>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
+            <div className='basis-1/3 flex-1 border rounded-md border-gray-300 flex flex-col justify-between'>
+              <Image src={web9} className='rounded-lg object-cover' width={'100%'} height={'100%'} />
+              <div className='flex justify-center gap-4'>
+                <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://github.com/Florencia-Mussis/ecommerce-Mussis'><FiGithub /></a>
+                <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://ecommerce-mussis.vercel.app/'><FiExternalLink /></a>
+              </div>
+            </div>
             <div className='basis-1/3 flex-1 border rounded-md border-gray-300'>
               <Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} />
               <a className='text-2xl flex justify-center gap-16 py-3 mt-3 text-gray-600 dark:text-gray-400' href='https://mind-free.surge.sh/'><FiExternalLink /></a>
@@ -148,10 +156,10 @@ export default function Home() {
                 <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://florencia-mussis.github.io/vgym-landing-page/'><FiExternalLink /></a>
               </div>
             </div>
-            <div className='basis-1/3 flex-1 border rounded-md border-gray-300 flex flex-col justify-between'>
+            {/* <div className='basis-1/3 flex-1 border rounded-md border-gray-300 flex flex-col justify-between'>
               <Image src={web6} className='rounded-lg object-cover' width={'100%'} height={'100%'} />
               <a className='text-2xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400' href='https://www.figma.com/proto/jVemOixIxblL1W3PfsnuYI/My-Lists?node-id=1-2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2'><FiExternalLink/></a>
-            </div>
+            </div> */}
           </div>
         </section>
       </main>
