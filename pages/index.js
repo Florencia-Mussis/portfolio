@@ -38,9 +38,9 @@ export default function Home() {
               <li className='dark:text-white'>
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl' />
               </li>
-              <li>
-                <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8' href='https://drive.google.com/file/d/1mrYo29H_eiljGleAU1BNsOkyBNXF4UpJ/view?usp=sharing'>Resume</a>
-              </li>
+              {/* <li>
+                <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8' href=''>Resume</a>
+              </li> */}
             </ul>
           </nav>
           <div className='text-center p-10 py-10'>
